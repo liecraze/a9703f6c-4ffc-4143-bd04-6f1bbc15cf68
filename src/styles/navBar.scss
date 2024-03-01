@@ -1,0 +1,22 @@
+@use 'src/styles/base';
+
+.searchbar {
+  border: base.$border;
+  background: base.$gradient-color;
+}
+
+.container{
+  display: flex;
+  alignItems: center;
+  width: 100%;
+}
+
+.title{
+  order: 2;
+  color: base.$secondary-color;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: base.$font-large;
+  text-align: center;
+  padding-left: base.$space-medium;
+}

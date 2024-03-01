@@ -1,0 +1,11 @@
+@use 'src/styles/base';
+
+.grid-item {
+  background: base.$gradient-color;
+  padding: base.$space-small;
+  border: base.$border;
+}
+
+.grid-item :last-child {
+  margin-right: base.$space-small;;
+}

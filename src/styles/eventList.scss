@@ -1,0 +1,11 @@
+@use 'src/styles/base';
+
+.date-tab{
+  background-color: base.$text-color !important;
+  color: base.$secondary-color !important;
+  margin: base.$space-medium;
+  &:hover {
+    background: base.$highlight-color !important;
+    color: base.$text-color !important;
+  }
+}
